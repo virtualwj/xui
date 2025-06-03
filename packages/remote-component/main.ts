@@ -410,17 +410,13 @@ async function initApp() {
 
         // 模板示例 - 支持PascalCase和kebab-case混合使用
         const template = `
-            <div>
-                <h1>动态组件测试</h1>
-                <XRegion id="r1" title="标题">
-                    <div>hello</div>
-                    <XButton type="primary">查询</XButton>
-                </XRegion>
-                <x-button type="secondary">另一个按钮</x-button>
-            </div>
+            <XRegion id="r1" title="标题">
+    <div>hello</div>
+    <XButton type="primary">查询</XButton>
+  </XRegion>
         `
-
         console.log('🎯 开始动态组件并发加载流程...')
+        console.log('XUI模版：', template)
 
         const components = await loader.loadComponentsFromTemplate(template)
 

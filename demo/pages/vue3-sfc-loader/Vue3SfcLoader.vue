@@ -2,7 +2,7 @@
   <div class="container">
 
     <div class="editor-section">
-      <h2>编辑Vue模板</h2>
+      <h2>XUI模版</h2>
       <div ref="editorContainer" class="monaco-editor-container"></div>
     </div>
 
@@ -25,7 +25,7 @@ const editorContainer = ref(null)
 let editor = null
 
 const vueTemplate = ref(`<div class="dynamic-component">
-  <div>hello world</div>
+  <p>下面是我提交的工单信息：</p>
   <XRegion id="r1" title="查询表">
      <XRow :gutter="16">
       <XCol :span="4">
@@ -117,7 +117,7 @@ onBeforeUnmount(() => {
 
 .monaco-editor-container {
   width: 100%;
-  height: 300px;
+  height: calc(100vh - 200px);
   border: 1px solid #ddd;
   border-radius: 4px;
   overflow: hidden;

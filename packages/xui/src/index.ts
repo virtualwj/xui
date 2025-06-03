@@ -1,7 +1,7 @@
 // index.ts
 import type { App } from 'vue'
 
-const modules = import.meta.glob('./components/X*/*.vue', { eager: true })
+const modules = import.meta.glob('./components/**/*.vue', { eager: true })
 const components: Record<string, any> = {}
 
 Object.entries(modules).forEach(([path, module]) => {
