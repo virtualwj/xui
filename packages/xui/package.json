@@ -1,0 +1,35 @@
+{
+  "name": "@xin3plat/xui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "build:Comp": "node build.mjs",
+    "preview": "vite preview"
+  },
+  "exports": {
+    ".": {
+      "module": "./src/index.ts"
+    }
+  },
+  "main":  "src/index.ts",
+  "module": "src/index.ts",
+  "files": [
+    "dist/**",
+    "src"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "vue": "^3.5.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}

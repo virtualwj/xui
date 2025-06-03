@@ -1,0 +1,28 @@
+{
+  "name": "@xin3plat/remote-component",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@vue/compiler-dom": "^3.5.15",
+    "@vue/repl": "^4.5.1",
+    "@xin3plat/xui": "workspace:*",
+    "monaco-editor": "^0.52.2",
+    "vue": "^3.5.13",
+    "vue3-sfc-loader": "^0.9.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "sass-embedded": "^1.89.1",
+    "scss": "^0.2.4",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vue-tsc": "^2.2.8"
+  }
+}

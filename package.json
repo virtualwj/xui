@@ -1,0 +1,15 @@
+{
+  "name": "xui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev:xui-demo": "pnpm --filter @xin3plat/xui-demo dev",
+    "build:xui": "pnpm --filter @xin3plat/xui build"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3"
+  }
+}

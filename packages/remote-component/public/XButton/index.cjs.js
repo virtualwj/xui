@@ -1,0 +1,1 @@
+"use strict";const o=require("vue"),c=(t,e)=>{const n=t.__vccOpts||t;for(const[r,s]of e)n[r]=s;return n},l={props:{type:String}};function u(t,e,n,r,s,p){return o.openBlock(),o.createElementBlock("button",{class:o.normalizeClass(["ef-button",n.type]),onClick:e[0]||(e[0]=a=>t.$emit("click"))},[o.renderSlot(t.$slots,"default")],2)}const i=c(l,[["render",u]]);module.exports=i;

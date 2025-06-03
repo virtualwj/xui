@@ -1,0 +1,27 @@
+{
+  "name": "@xin3plat/xui",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite"
+  },
+  "exports": {
+    ".": {
+      "module": "./src/index.ts"
+    }
+  },
+  "main":  "src/index.ts",
+  "module": "src/index.ts",
+  "files": [
+    "dist/**",
+    "src"
+  ],
+  "dependencies": {
+  },
+  "peerDependencies": {
+  },
+  "devDependencies": {
+   
+  }
+}
